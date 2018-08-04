@@ -1,7 +1,9 @@
 git clone --branch master https://github.com/fobaty/Sunxi-WiringPi.git
 cd Sunxi-WiringPi
 ./build
-sudo mkdir /var/lib/sunxi
+
+sudo su
+mkdir /var/lib/sunxi
 
 # Choose board
 # Orange Pi Win / Win Plus: <opi-win/opi-winp>
