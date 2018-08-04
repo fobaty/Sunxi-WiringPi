@@ -1,4 +1,4 @@
-git clone --branch master https://github.com/rubitwa/Sunxi-WiringPi.git
+git clone --branch master https://github.com/fobaty/Sunxi-WiringPi.git
 cd Sunxi-WiringPi
 ./build
 mkdir /var/lib/sunxi
