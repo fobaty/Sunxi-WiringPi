@@ -1,5 +1,5 @@
 #!/bin/bash
-        temp="55" # Устанавливаем какую хотим поддерживать температуру
+        temp="65" # Устанавливаем какую хотим поддерживать температуру
         while true; do
         realtemp=`cat /sys/class/thermal/thermal_zone0/temp`
         str2="${realtemp%???}"
